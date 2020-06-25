@@ -1,0 +1,34 @@
+{
+  "name": "express-mongodb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shynghys/express-mongodb.git"
+  },
+  "keywords": [
+    "mongodb",
+    "express",
+    "nodejs"
+  ],
+  "author": "Kabzhan Shynghys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shynghys/express-mongodb/issues"
+  },
+  "homepage": "https://github.com/Shynghys/express-mongodb#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "mongoose": "^5.9.20"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
