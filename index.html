@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="public/index.css" />
+
+    <title>Todos</title>
+  </head>
+
+  <nav class="blue darken-4">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Todos</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="/">Todos list</a></li>
+
+        <li class="active"><a href="/create">Create Todo</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <h2>Todos page</h2>
+
+  <ul>
+    <li class="todo">
+      <form action="/complete" method="POST">
+        <label>
+          <input type="checkbox" name="completed" />
+          <span class="completed">Example 2</span>
+
+          <button class="btn btn-small" type="submit">Save</button>
+        </label>
+      </form>
+    </li>
+  </ul>
+  <ul>
+    <li class="todo">
+      <form action="/complete" method="POST">
+        <label>
+          <input type="checkbox" checked name="completed" />
+          <span class="completed">Example 1</span>
+
+          <button class="btn btn-small" type="submit">Save</button>
+        </label>
+      </form>
+    </li>
+  </ul>
+</html>
